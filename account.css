@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+* a {
+  text-decoration-line: none;
+}
+
+.container {
+  margin: 20px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+nav .logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+nav .logo .menu-bar {
+  display: none;
+}
+nav .menu ul {
+  display: flex;
+}
+nav .menu ul li {
+  margin-right: 25px;
+}
+nav .menu ul li a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+nav .menu ul li.home a {
+  color: #141718;
+}
+nav .icon-menu ul {
+  display: flex;
+}
+nav .icon-menu ul li {
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  height: 249px;
+  padding-top: 80px;
+  gap: 49px;
+  background: rgb(20, 23, 24);
+}
+footer .foot-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .foot-content .left {
+  display: flex;
+  width: 544px;
+  height: 24px;
+  gap: 32px;
+  opacity: 0px;
+}
+footer .foot-content .left .logo p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+footer .foot-content .left .slogan p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgb(232, 236, 239);
+}
+footer .foot-content .right ul {
+  display: flex;
+}
+footer .foot-content .right ul li {
+  width: 75px;
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+footer .foot-content .right ul li a {
+  color: rgb(254, 254, 254);
+}
+footer .foot-bar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-bar .left {
+  display: flex;
+}
+footer .foot-bar .left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(232, 236, 239);
+  margin-right: 20px;
+}
+footer .foot-bar .left a {
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(254, 254, 254);
+}
+footer .foot-bar .right ul {
+  display: flex;
+}
+footer .foot-bar .right ul li {
+  margin-left: 15px;
+}
+footer .foot-bar2 {
+  display: none;
+}
+
+section .back {
+  display: none;
+}
+section .head {
+  width: 312px;
+  height: 218px;
+  padding: 80px 0px;
+  gap: 40px;
+  opacity: 0px;
+  margin: 0 auto;
+}
+section .head h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #000;
+}
+section .details {
+  display: flex;
+  justify-content: space-between;
+}
+section .details .card {
+  width: 262px;
+  height: 450px;
+  padding: 40px 16px;
+  gap: 40px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #F3F5F7;
+}
+section .details .card .profile {
+  width: 230px;
+  height: 150px;
+  gap: 6px;
+}
+section .details .card .profile .profile-img {
+  margin: 0 65px;
+  width: 100px;
+  position: relative;
+}
+section .details .card .profile .profile-img .camera {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+section .details .card .profile p {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+section .details .card .card-menu {
+  width: 230px;
+  height: 258px;
+  gap: 12px;
+}
+section .details .card .card-menu ul li {
+  margin: 15px 0;
+}
+section .details .card .card-menu ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #6C7275;
+}
+section .details .card .card-menu ul li.active a {
+  color: #141718;
+}
+section .details .forms {
+  width: 851px;
+  height: 828px;
+  padding: 0px 72px;
+  gap: 40px;
+}
+section .details .forms .form-1 {
+  margin-bottom: 50px;
+  width: 707px;
+  height: 416px;
+  gap: 24px;
+}
+section .details .forms .form-1 h3 {
+  width: 154px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #000;
+}
+section .details .forms .form-1 form label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #6C7275;
+}
+section .details .forms .form-1 form input {
+  width: 707px;
+  height: 40px;
+  padding: 0px 16px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid #CBCBCB;
+  outline: 0;
+}
+section .details .forms .form-1 form p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #6C7275;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+section .details .forms .form-2 {
+  width: 707px;
+  height: 372px;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+section .details .forms .form-2 h3 {
+  width: 95px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #000;
+}
+section .details .forms .form-2 form label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #6C7275;
+}
+section .details .forms .form-2 form input {
+  width: 707px;
+  height: 40px;
+  padding: 0px 16px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid #CBCBCB;
+  outline: 0;
+}
+section .details .forms .form-2 form button {
+  width: 183px;
+  height: 52px;
+  padding: 12px 40px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+}
+section .details .card-option {
+  display: none;
+}/*# sourceMappingURL=account.css.map */

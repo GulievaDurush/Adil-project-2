@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+* a {
+  text-decoration-line: none;
+}
+
+#sign-up {
+  display: flex;
+}
+
+.sign-img {
+  background-image: url(image/Paste\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 50%;
+}
+.sign-img .logo p {
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sign-form {
+  margin: 100px auto;
+  width: 456px;
+  height: 376px;
+}
+.sign-form .head {
+  width: 456px;
+  height: 100px;
+}
+.sign-form .head h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: rgb(20, 23, 24);
+}
+.sign-form .head p {
+  display: inline;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  color: rgb(108, 114, 117);
+}
+.sign-form .head a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(56, 203, 137);
+}
+.sign-form .form {
+  margin-top: 20px;
+  width: 456px;
+  height: 350px;
+  gap: 24px;
+  opacity: 0px;
+}
+.sign-form .form form #name {
+  width: 330px;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  gap: 10px;
+  border: 0;
+  opacity: 0px;
+  outline: 0;
+  border-bottom: 1px solid rgb(232, 236, 239);
+}
+.sign-form .form form #username {
+  width: 330px;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  gap: 10px;
+  border: 0;
+  opacity: 0px;
+  outline: 0;
+  border-bottom: 1px solid rgb(232, 236, 239);
+}
+.sign-form .form form #email {
+  width: 330px;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  gap: 10px;
+  border: 0;
+  opacity: 0px;
+  outline: 0;
+  border-bottom: 1px solid rgb(232, 236, 239);
+}
+.sign-form .form form #password {
+  width: 330px;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  gap: 10px;
+  border: 0;
+  opacity: 0px;
+  outline: 0;
+  border-bottom: 1px solid rgb(232, 236, 239);
+}
+.sign-form .form form #agree-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(108, 114, 117);
+}
+.sign-form .form form #agree-text span {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(20, 23, 24);
+}
+.sign-form .submit {
+  width: 330px;
+  height: 50px;
+}
+.sign-form .submit button {
+  width: 330px;
+  height: 50px;
+  padding: 10px 40px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgb(20, 23, 24);
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+  border: 0;
+}/*# sourceMappingURL=sign-up.css.map */

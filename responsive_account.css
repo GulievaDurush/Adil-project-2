@@ -1,0 +1,244 @@
+@media (max-width:576px) {
+    .container {
+        margin: 20px 50px;
+    }
+
+    nav .logo {
+        display: flex;
+    }
+
+    nav .logo .menu-bar {
+        display: block;
+        margin-right: 10px;
+    }
+
+    nav .logo p {
+        margin-top: 2px;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .icon-menu ul li:nth-child(1) {
+        display: none;
+    }
+
+    nav .icon-menu ul li:nth-child(2) {
+        display: none;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    footer .foot-content {
+        display: block;
+    }
+
+    footer .foot-content .left {
+        display: block;
+        width: 476px;
+        height: 90px;
+    }
+
+    footer .foot-content .left .logo p {
+        text-align: center;
+    }
+
+    .line {
+        background-color: white;
+        height: 1px;
+        width: 100px;
+        margin: 10px auto;
+    }
+
+    footer .foot-content .left .slogan p {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    footer .foot-content .right ul {
+        display: block;
+    }
+
+    footer .foot-content .right ul li {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    footer .foot-bar {
+        display: none;
+    }
+
+    footer .foot-bar2 {
+        display: block;
+    }
+
+    footer .foot-bar2 .right ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .foot-bar2 .right ul li {
+        margin: 20px 10px;
+    }
+
+    footer .foot-bar2 .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .foot-bar2 .left a {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(254, 254, 254, 1);
+        margin: 10px 20px;
+    }
+
+    footer .foot-bar2 .end {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    footer .foot-bar2 .end p {
+        color: rgba(232, 236, 239, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+
+
+    }
+
+    .line-2 {
+        height: 1px;
+        width: 476px;
+        background-color: aliceblue;
+    }
+
+    section .back {
+        display: block;
+    }
+
+    section .back p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    section .head {
+        width: 375px;
+        height: 164px;
+        padding: 40px 0px;
+        gap: 40px;
+        opacity: 0px;
+
+    }
+
+    section .details {
+        display: block;
+    }
+
+    section .details .card-option {
+        display: block;
+    }
+
+    .card-menu {
+        display: none;
+    }
+
+    section .details .card {
+        width: 476px;
+        height: 270px;
+        padding: 40px 16px;
+    }
+
+    section .details .card .profile {
+        width: 230px;
+        height: 150px;
+        gap: 6px;
+        margin: auto;
+    }
+
+    section .details .card .profile .profile-img {
+        margin: 0 65px;
+        width: 100px;
+        position: relative;
+    }
+
+    section .details .card-option {
+        display: block;
+        margin: 0 auto;
+        width: 270px;
+
+    }
+
+    section .details .card-option form select {
+        width: 280px;
+        height: 48px;
+        padding: 8px 8px 8px 16px;
+        gap: 0px;
+        border-radius: 8px;
+        border: 2px solid #6C7275;
+        justify-content: space-between;
+        opacity: 0px;
+        font-family: "Inter",sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+    }
+    section .details .card-option form select option{
+        font-family: "Inter",sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+    }
+
+    section .details .forms {
+        padding: 0;
+        width: 476px;
+        margin-top: 100px;
+    }
+
+    section .details .forms .form-1 {
+        width: 476px;
+    }
+
+    section .details .forms .form-1 form {
+        width: 476px;
+    }
+
+    section .details .forms .form-1 form input {
+        width: 476px;
+    }
+
+    section .details .forms .form-1 form p {
+        width: 300px;
+    }
+
+    section .details .forms .form-2 {
+        width: 476px;
+    }
+
+    section .details .forms .form-2 form {
+        width: 476px;
+    }
+
+    section .details .forms .form-2 form input {
+        width: 476px;
+    }
+
+    section .details .forms .form-2 form p {
+        width: 300px;
+    }
+}

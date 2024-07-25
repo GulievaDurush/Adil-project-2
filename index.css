@@ -1,0 +1,1084 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+* a {
+  text-decoration-line: none;
+}
+
+.container {
+  margin: 20px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+nav .logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+nav .logo .menu-bar {
+  display: none;
+}
+nav .menu ul {
+  display: flex;
+}
+nav .menu ul li {
+  margin-right: 25px;
+}
+nav .menu ul li a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+nav .menu ul li.home a {
+  color: #141718;
+}
+nav .icon-menu ul {
+  display: flex;
+}
+nav .icon-menu ul li {
+  margin-right: 20px;
+}
+
+header {
+  margin-bottom: 100px;
+}
+header .slide .slide-img {
+  position: relative;
+}
+header .slide .arrows {
+  display: flex;
+}
+header .slide .arrows .left {
+  position: absolute;
+  left: 11%;
+  top: 50%;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+header .slide .arrows .left .left-icon {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+header .slide .arrows .right {
+  position: absolute;
+  right: 13%;
+  top: 52%;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+header .slide .arrows .right .right-icon {
+  position: absolute;
+  top: 20%;
+  right: 18%;
+}
+header .slide .dots {
+  position: absolute;
+  bottom: 5%;
+  left: 46%;
+  display: flex;
+}
+header .slide .dots .one {
+  margin-right: 15px;
+  width: 30px;
+  height: 8px;
+  gap: 10px;
+  background: #FEFEFE;
+  border-radius: 5px;
+}
+header .slide .dots .two {
+  margin-right: 15px;
+  width: 8px;
+  height: 8px;
+  background: #FEFEFE;
+  border-radius: 5px;
+}
+header .slide .dots .three {
+  margin-right: 15px;
+  width: 8px;
+  height: 8px;
+  background: #FEFEFE;
+  border-radius: 5px;
+}
+header .header-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+header .header-text .left-text {
+  width: 50%;
+}
+header .header-text .left-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 76px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #121212;
+}
+header .header-text .left-text h1 span {
+  color: #6C7275;
+}
+header .header-text .right-text {
+  width: 50%;
+}
+header .header-text .right-text p {
+  width: 400px;
+  margin: 50px 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+header .header-text .right-text p span {
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  height: 660px;
+}
+.cards .big-card {
+  position: relative;
+  margin-right: 30px;
+}
+.cards .big-card .big-content {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.cards .big-card .big-content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #141718;
+  margin-bottom: 20px;
+}
+.cards .big-card .big-content .big-link {
+  display: flex;
+}
+.cards .big-card .big-content .big-link a {
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.cards .big-card .big-content .big-link a img {
+  margin-left: 3px;
+}
+.cards .small-cards .one-card {
+  position: relative;
+  margin-bottom: 22px;
+}
+.cards .small-cards .one-card .one-content {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+.cards .small-cards .one-card .one-content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #141718;
+  margin-bottom: 20px;
+}
+.cards .small-cards .one-card .one-content .one-link {
+  display: flex;
+}
+.cards .small-cards .one-card .one-content .one-link a {
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.cards .small-cards .one-card .one-content .one-link a img {
+  margin-left: 3px;
+}
+.cards .small-cards .two-card {
+  position: relative;
+}
+.cards .small-cards .two-card .two-content {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+.cards .small-cards .two-card .two-content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #141718;
+  margin-bottom: 20px;
+}
+.cards .small-cards .two-card .two-content .two-link {
+  display: flex;
+}
+.cards .small-cards .two-card .two-content .two-link a {
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.cards .small-cards .two-card .two-content .two-link a img {
+  margin-left: 3px;
+}
+
+.sale {
+  margin-top: 100px;
+}
+.sale .sale-more {
+  display: none;
+}
+.sale .sale-text {
+  display: flex;
+  justify-content: space-between;
+}
+.sale .sale-text .sale-left {
+  width: 150px;
+  height: 88px;
+}
+.sale .sale-text .sale-left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+}
+.sale .sale-text .sale-right .sale-link {
+  margin: 60px 25px;
+}
+.sale .sale-text .sale-right .sale-link a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.sale .discount-cards {
+  display: flex;
+  margin-bottom: 50px;
+}
+.sale .discount-cards .card-1 {
+  width: 262px;
+  height: 433px;
+  margin-right: 30px;
+}
+.sale .discount-cards .card-1 .card-img {
+  position: relative;
+}
+.sale .discount-cards .card-1 .card-img .new {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+.sale .discount-cards .card-1 .card-img .new p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #141718;
+}
+.sale .discount-cards .card-1 .card-img .discount {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #38CB89;
+  color: #FEFEFE;
+}
+.sale .discount-cards .card-1 .card-img .discount p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+.sale .discount-cards .card-1 .card-img .like {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  gap: 10px;
+  border-radius: 32px;
+  background-color: #fff;
+}
+.sale .discount-cards .card-1 .card-img .add-btn {
+  position: absolute;
+  bottom: 5%;
+  width: 230px;
+  height: 46px;
+  padding: 8px 24px;
+  gap: 4px;
+  border-radius: 8px;
+  background: #141718;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.0352941176);
+  align-content: center;
+  margin: 0 16px;
+  text-align: center;
+}
+.sale .discount-cards .card-1 .card-img .add-btn a {
+  color: #FEFEFE;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+}
+.sale .discount-cards .card-1 .card-bottom .object-name {
+  width: 262px;
+  height: 26px;
+}
+.sale .discount-cards .card-1 .card-bottom .object-name p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.sale .discount-cards .card-1 .card-bottom .price {
+  display: flex;
+}
+.sale .discount-cards .card-1 .card-bottom .price p {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+}
+.sale .discount-cards .card-1 .card-bottom .price .old {
+  color: #6C7275;
+  margin-left: 15px;
+}
+.sale .discount-cards .card-2 {
+  width: 262px;
+  height: 433px;
+  margin-right: 30px;
+}
+.sale .discount-cards .card-2 .card-img {
+  position: relative;
+}
+.sale .discount-cards .card-2 .card-img .new {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+.sale .discount-cards .card-2 .card-img .new p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #141718;
+}
+.sale .discount-cards .card-2 .card-img .discount {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #38CB89;
+  color: #FEFEFE;
+}
+.sale .discount-cards .card-2 .card-img .discount p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+.sale .discount-cards .card-2 .card-bottom .object-name {
+  width: 262px;
+  height: 26px;
+}
+.sale .discount-cards .card-2 .card-bottom .object-name p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.sale .discount-cards .card-2 .card-bottom .price p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+}
+.sale .discount-cards .card-3 {
+  width: 262px;
+  height: 433px;
+  margin-right: 30px;
+}
+.sale .discount-cards .card-3 .card-img {
+  position: relative;
+}
+.sale .discount-cards .card-3 .card-img .new {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+.sale .discount-cards .card-3 .card-img .new p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #141718;
+}
+.sale .discount-cards .card-3 .card-img .discount {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #38CB89;
+  color: #FEFEFE;
+}
+.sale .discount-cards .card-3 .card-img .discount p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+.sale .discount-cards .card-3 .card-bottom .object-name {
+  width: 262px;
+  height: 26px;
+}
+.sale .discount-cards .card-3 .card-bottom .object-name p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.sale .discount-cards .card-3 .card-bottom .price p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+}
+.sale .discount-cards .card-4 {
+  width: 262px;
+  height: 433px;
+  margin-right: 30px;
+}
+.sale .discount-cards .card-4 .card-img {
+  position: relative;
+}
+.sale .discount-cards .card-4 .card-img .new {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+.sale .discount-cards .card-4 .card-img .new p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #141718;
+}
+.sale .discount-cards .card-4 .card-img .discount {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 67px;
+  height: 24px;
+  padding: 4px 14px 4px 14px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #38CB89;
+  color: #FEFEFE;
+}
+.sale .discount-cards .card-4 .card-img .discount p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+.sale .discount-cards .card-4 .card-bottom .object-name {
+  width: 262px;
+  height: 26px;
+}
+.sale .discount-cards .card-4 .card-bottom .object-name p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.sale .discount-cards .card-4 .card-bottom .price p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+}
+
+.box-cards {
+  display: flex;
+  margin-bottom: 100px;
+}
+.box-cards .box-1 {
+  margin-right: 30px;
+  width: 262px;
+  height: 220px;
+  padding: 48px 32px;
+  gap: 16px;
+  background: #F3F5F7;
+}
+.box-cards .box-1 .box-logo {
+  margin-top: 10px;
+}
+.box-cards .box-1 .box-text {
+  margin-top: 20px;
+}
+.box-cards .box-1 .box-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #141718;
+}
+.box-cards .box-1 .box-text .second {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+.box-cards .box-2 {
+  margin-right: 30px;
+  width: 262px;
+  height: 220px;
+  padding: 48px 32px;
+  gap: 16px;
+  background: #F3F5F7;
+}
+.box-cards .box-2 .box-text {
+  margin-top: 20px;
+}
+.box-cards .box-2 .box-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #141718;
+}
+.box-cards .box-2 .box-text .second {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+.box-cards .box-3 {
+  margin-right: 30px;
+  width: 262px;
+  height: 220px;
+  padding: 48px 32px;
+  gap: 16px;
+  background: #F3F5F7;
+}
+.box-cards .box-3 .box-text {
+  margin-top: 20px;
+}
+.box-cards .box-3 .box-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #141718;
+}
+.box-cards .box-3 .box-text .second {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+.box-cards .box-4 {
+  margin-right: 30px;
+  width: 262px;
+  height: 220px;
+  padding: 48px 32px;
+  gap: 16px;
+  background: #F3F5F7;
+}
+.box-cards .box-4 .box-text {
+  margin-top: 20px;
+}
+.box-cards .box-4 .box-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #141718;
+}
+.box-cards .box-4 .box-text .second {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6C7275;
+}
+
+.shop {
+  display: flex;
+}
+.shop .shop-img {
+  width: 720px;
+  height: 532px;
+}
+.shop .shop-text {
+  background: #F3F5F7;
+  width: 720px;
+  height: 532px;
+  padding: 0px 160px 0px 72px;
+  gap: 24px;
+}
+.shop .shop-text .shop-content {
+  height: 200px;
+  gap: 16px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.shop .shop-text .shop-content .blue-text {
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #377DFF;
+}
+.shop .shop-text .shop-content h3 {
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #121212;
+}
+.shop .shop-text .shop-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #141718;
+}
+.shop .shop-text .shop-link {
+  width: 100px;
+  height: 28px;
+  gap: 4px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+}
+.shop .shop-text .shop-link a {
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.shop .shop-text .shop-link a img {
+  margin-left: 3px;
+}
+
+.articles-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.articles-text .articles-head {
+  width: 147px;
+  height: 44px;
+}
+.articles-text .articles-head p {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: black;
+}
+.articles-text .more-articles {
+  width: 100px;
+  height: 28px;
+  gap: 4px;
+}
+.articles-text .more-articles a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+
+.articles-cards {
+  display: flex;
+}
+.articles-cards .card-1 {
+  width: 357px;
+  height: 413px;
+  gap: 24px;
+  margin-right: 40px;
+}
+.articles-cards .card-1 .card-text {
+  width: 352px;
+  height: 28px;
+  margin: 10px 0;
+}
+.articles-cards .card-1 .card-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #23262F;
+}
+.articles-cards .card-1 .card-link {
+  width: 100px;
+  height: 28px;
+  gap: 4px;
+}
+.articles-cards .card-1 .card-link a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.articles-cards .card-2 {
+  width: 357px;
+  height: 413px;
+  gap: 24px;
+  margin-right: 40px;
+}
+.articles-cards .card-2 .card-text {
+  width: 352px;
+  height: 28px;
+  margin: 10px 0;
+}
+.articles-cards .card-2 .card-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #23262F;
+}
+.articles-cards .card-2 .card-link {
+  width: 100px;
+  height: 28px;
+  gap: 4px;
+}
+.articles-cards .card-2 .card-link a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.articles-cards .card-3 {
+  width: 357px;
+  height: 413px;
+  gap: 24px;
+  margin-right: 40px;
+}
+.articles-cards .card-3 .card-text {
+  width: 352px;
+  height: 28px;
+  margin: 10px 0;
+}
+.articles-cards .card-3 .card-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #23262F;
+}
+.articles-cards .card-3 .card-link {
+  width: 100px;
+  height: 28px;
+  gap: 4px;
+}
+.articles-cards .card-3 .card-link a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+
+.join {
+  background-image: url(image/Paste\ image\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 336px;
+  margin-top: 100px;
+}
+.join .join-form {
+  width: 540px;
+  height: 166px;
+  gap: 32px;
+  margin: auto;
+  padding: 100px 0;
+}
+.join .join-form .join-head {
+  width: 540px;
+  height: 82px;
+  gap: 8px;
+}
+.join .join-form .join-head h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+  color: #141718;
+}
+.join .join-form .join-head p {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: #141718;
+}
+.join .join-form .input {
+  width: 540px;
+  height: 52px;
+  gap: 8px;
+  padding: 20px;
+}
+.join .join-form .input form {
+  width: 500 px;
+  height: 52px;
+  gap: 8px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  border-bottom: 1px solid rgba(108, 114, 117, 0.5019607843);
+}
+.join .join-form .input form #email {
+  border: 0;
+  outline: 0;
+  width: 428px;
+  height: 28px;
+  background-color: transparent;
+  text-align: left;
+}
+.join .join-form .input form #submit {
+  width: 52px;
+  height: 28px;
+  gap: 4px;
+  opacity: 0px;
+  border: 0;
+  background-color: transparent;
+  color: #23262F;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: right;
+}
+
+footer {
+  height: 249px;
+  padding-top: 80px;
+  gap: 49px;
+  background: rgb(20, 23, 24);
+}
+footer .foot-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .foot-content .left {
+  display: flex;
+  width: 544px;
+  height: 24px;
+  gap: 32px;
+  opacity: 0px;
+}
+footer .foot-content .left .logo p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+footer .foot-content .left .slogan p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgb(232, 236, 239);
+}
+footer .foot-content .right ul {
+  display: flex;
+}
+footer .foot-content .right ul li {
+  width: 75px;
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+footer .foot-content .right ul li a {
+  color: rgb(254, 254, 254);
+}
+footer .foot-bar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-bar .left {
+  display: flex;
+}
+footer .foot-bar .left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(232, 236, 239);
+  margin-right: 20px;
+}
+footer .foot-bar .left a {
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(254, 254, 254);
+}
+footer .foot-bar .right ul {
+  display: flex;
+}
+footer .foot-bar .right ul li {
+  margin-left: 15px;
+}
+footer .foot-bar2 {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
